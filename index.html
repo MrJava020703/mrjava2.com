@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--===== Font Awesome =====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <!--===== Main CSS =====-->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.3/css/all.min.css" integrity="sha512-f2MWjotY+JCWDlE0+QAshlykvZUtIm35A6RHwfYZPdxKgLJpL8B+VVxjpHJwZDsZaWdyHVhlIHoblFYGkmrbhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <script>
+      $(function () {
+  "use strict";
+  $(".pCard_add").click(function () {
+    $(".pCard_card").toggleClass("pCard_on");
+    $(".pCard_add i").toggleClass("fa-plus fa-minus");
+  });
+});
+
+   </script>
+</head>
+<body>
+      <!--===== Navbar Start =====-->
+      <nav class="navbar">
+          <div class="container">
+              <div class="row justify-content-between">
+                  <div class="logo"><a href="index.html">Mr.Java<span>(Web Developer)</span></a></div>
+                  <div class="links">
+                  <ul class="menu">
+                      <li class="nav-item"><a href="#home" class="nav-link active">Home <span></span></a></li>
+                      <li class="nav-item"><a href="#about" class="nav-link">About <span></span></a></li>
+                      <li class="nav-item"><a href="#services" class="nav-link">Services <span></span></a></li>
+                      <li class="nav-item"><a href="#projects" class="nav-link">Projects <span></span></a></li>
+                      <li class="nav-item"><a href="#pricing" class="nav-link">Pricing <span></span></a></li>
+                      <li class="nav-item"><a href="#profile" class="nav-link">Profile <span></span></a></li>
+                      <li class="nav-item"><a href="#section-wrapper" class="nav-link">Contact <span></span></a></li>
+                  </ul>
+                  </div>
+                  <div class="menu-btn">
+                      <i class="fas fa-bars"></i>
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <!--===== Navbar End =====-->
+      <!--===== Home Section Start =====-->
+      <section class="home-section" id="home">
+          <ul class="header-social"> <!--===== Header Social =====-->
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCYD6FPfVjJ8RmJfcyOAet9g"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="https://twitter.com/saurabh51018267"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/itz_legend_saurabh/"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.instagram.com/developer_mr.java/"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/saurabh-kumar-mr-java-885524224"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="home-text">
+                      <h4>Hello</h4>
+                      <h1>Saurabh Kumar(Mr.Java)</h1>
+                      <span>Web Developer</span>
+                      <p>Suitable for all levels, this tutorial enhances coding skills, covering basics, advanced topics like functions, classes, libraries, and offering insights into clean, efficient coding and effective troubleshooting</p>
+                           <a href="#" class="btn btn-1">purchase now</a>
+                  </div>
+                  <div class="home-image">
+                      <div class="img-box">
+                          <img src="images/o1.png" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="header-hero-shape"></div> <!--===== Hero Shape =====-->
+      </section>
+
+       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0">
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+    </defs>
+</svg>
+
+<div class="demo">
+    <div class="demo__buttons" style="">
+        <div class="demo__social-btn-4 demo__social-btn"><i class="fab fa-github"></i></div>
+        <div class="demo__social-btn-3 demo__social-btn"><i class="fab fa-instagram"></i></div>
+        <div class="demo__social-btn-2 demo__social-btn"><i class="fab fa-facebook"></i></div>
+        <div class="demo__social-btn-1 demo__social-btn"><i class="fab fa-twitter"></i></div>
+        <div class="demo__open-btn"><i class="fas fa-share-alt"></i></div>
+    </div>
+</div>
+
+ <div class="page3">
+  <div class="chatbox-wrapper">
+    <div class="chatbox-toggle">
+      <i class='bx bx-message-dots'></i>
+    </div>
+    <div class="chatbox-message-wrapper">
+      <div class="chatbox-message-header">
+        <div class="chatbox-message-profile">
+          <img src="images/o.jpg" alt="" class="chatbox-message-image">
+          <div>
+            <h4 class="chatbox-message-name">Saurabh Kumar(Mr.Java)</h4>
+            <p class="chatbox-message-status">online</p>
+          </div>
+        </div>
+        <div class="chatbox-message-dropdown">
+          <i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle'></i>
+          <ul class="chatbox-message-dropdown-menu">
+            <li>
+              <a href="#">Search</a>
+            </li>
+            <li>
+              <a href="#">Report</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="chatbox-message-content">
+        <h4 class="chatbox-message-no-message">You don't have message yet!</h4>
+      </div>
+      <div class="chatbox-message-bottom">
+        <form action="#" class="chatbox-message-form">
+          <textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
+          <button type="submit" class="chatbox-message-submit"><i class='bx bx-send' style="margin-left:170px;" ></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+      
+      <!--===== Home Section End =====-->
+      <!--===== About Section Start =====-->
+      <section class="about-section section-padding" id="about">
+          <div class="container">
+              <div class="row align-items-center justify-content-center">
+                  <div class="about-image">
+                      <div class="img-box">
+                          <img src="images/o1.png" alt="" style="margin-left: -175px;">
+                          <div class="about-shape"></div>
+                      </div>
+                  </div>
+                  <div class="about-content">
+                      <div class="section-title">
+                          <h5 class="sub-title">About</h5>
+                          <h3 class="main-title">Why You Hire Me?</h3>
+                          <ul class="line">
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                          </ul>
+                      </div> <!--===== Section Title =====-->
+                      <p>Hello, I am Saurabh Kumar, also recognized as "Mr. Java," and I extend a warm welcome to the realm of coding! Throughout this tutorial, we will delve into some of the most influential programming languages and essential tools used in contemporary software development. This encompasses HTML, CSS, JavaScript, C, C++, Java, Python, PHP, and the realm of Data Science facilitated by Python.</p>
+                          <div class="about-skills">
+                              <div class="skill-item">
+                                  <div class="skill-header">
+                                      <h6 class="skill-title">C/C++</h6>
+                                      <div class="skill-percentage">
+                                          <p><span class="counter">90</span>%</p>
+                                      </div>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="bar-inner">
+                                          <div class="bar progress-line" data-progress="90%"></div>
+                                      </div>
+                                  </div>
+                              </div> <!--===== Skill Item =====-->
+                              <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title">Web Design And Web Developement</h6>
+                                    <div class="skill-percentage">
+                                        <p><span class="counter">95</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-progress="95%"></div>
+                                    </div>
+                                </div>
+                            </div> <!--===== Skill Item =====-->
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title">HTML/CSS</h6>
+                                    <div class="skill-percentage">
+                                        <p><span class="counter">90</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-progress="90%"></div>
+                                    </div>
+                                </div>
+                            </div> <!--===== Skill Item =====-->
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title">Javascript</h6>
+                                    <div class="skill-percentage">
+                                        <p><span class="counter">70</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-progress="70%"></div>
+                                    </div>
+                                </div>
+                            </div> <!--===== Skill Item =====-->
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title">Java</h6>
+                                    <div class="skill-percentage">
+                                        <p><span class="counter">80</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-progress="80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title">Python</h6>
+                                    <div class="skill-percentage">
+                                        <p><span class="counter">85</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-progress="85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--===== About Section End =====-->
+      <!--===== Services Section Start =====-->
+      <section class="service-section section-padding" id="services">
+          <div class="container">
+              <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">Services</h5>
+                    <h3 class="main-title">Services I Provide</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+             </div>
+              <div class="row">
+                   <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                      <div class="service-item-inner">
+                          <div class="icon">
+                              <i class="fas fa-mobile-alt"></i>
+                          </div>
+                          <h3>Java Development</h3>
+                          <p>Java development involves creating applications, websites, and software using the Java programming language, known for its portability and extensive libraries, contributing to robust and versatile software solutions.</p>
+                      </div>
+                  </div>
+                  <!--===== Service Item End =====-->
+                  <!--===== Service Item Start =====-->
+                   <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Design and Web Development</h3>
+                        <p>Web design involves creating visually appealing and user-friendly websites, while web development focuses on coding and building functional web applications.</p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Game Development</h3>
+                        <p>Game development combines design, coding, and storytelling to craft interactive digital experiences, resulting in captivating and playable games.</p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>C/C++ Development</h3>
+                        <p>C/C++ development entails crafting efficient code for applications spanning systems, games, and embedded systems, leveraging low-level control and rich libraries.</p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Python Development</h3>
+                        <p>Python development involves building diverse applications using its concise syntax and libraries, powering tasks from web development to data analysis and automation.</p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Great Support</h3>
+                        <p>Great support involves offering prompt assistance and effective solutions, addressing user needs and concerns to ensure a positive and productive experience.</p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+             </div>
+          </div>
+      </section>
+      <!--===== Services Section End =====-->
+      <section class="portfolio section-padding" id="projects">
+          <div class="container">
+            <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">Projects</h5>
+                    <h3 class="main-title">My Latest Projects</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+              </div>
+              <div class="row">
+                  <div class="portfolio-filter">
+                      <button type="button" class="active" data-filter="all">All</button>
+                      <button type="button" data-filter="web-design">Web Design</button>
+                      <button type="button" data-filter="photography">Frontend Projects</button>
+                      <button type="button" data-filter="wordpress">HTML/CSS</button>
+                  </div>
+              </div>
+              <div class="row">
+                  <!--===== portfolio-item start =====-->
+                 <div class="portfolio-item" data-category="wordpress">
+                      <div class="portfolio-item-inner">
+                          <div class="portfolio-img">
+                              <img src="images/img/web1.png" alt="">
+                          </div>
+                          <div class="portfolio-info">
+                              <h4>Web Design</h4>
+                              <div class="icon">
+                                  <i class="fa fa-search"></i>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                   <!--===== portfolio-item end =====-->
+                   <!--===== portfolio-item start =====-->
+                  <div class="portfolio-item" data-category="wordpress">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/img/web2.png" height="277px"alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>HTML/CSS</h4>
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--===== portfolio-item end =====-->
+                 <!--===== portfolio-item start =====-->
+                <div class="portfolio-item" data-category="photography">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/img/web3.png" height="277px"alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Frontend Projects</h4>
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--===== portfolio-item end =====-->
+                 <!--===== portfolio-item start =====-->
+                  <div class="portfolio-item" data-category="web-design">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/img/web4.png" height="303px"alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Web Design</h4>
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--===== portfolio-item end =====-->
+                 <!--===== portfolio-item start =====-->
+                   <div class="portfolio-item" data-category="wordpress">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/img/web5.png" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>HTML/CSS</h4>
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--===== portfolio-item end =====-->
+                 <!--===== portfolio-item start =====-->
+                <div class="portfolio-item" data-category="photography">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/img/web6.png" height="303px" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Frontend Projects</h4>
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--===== portfolio-item end =====-->
+             </div>
+          </div>
+      </section>
+      <!--===== Portfolio Section End =====-->
+      <!--===== Pricing Section Start =====-->
+      <section class="pricing section-padding" id="pricing" style="background-color:#efefef;">
+          <div class="container">
+            <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">Pricing</h5>
+                    <h3 class="main-title">Pricing Plans</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div><!--===== Section Title =====-->
+              </div>
+             <div class="row justify-content-center">
+                  <div class="pricing-item">
+                      <div class="pricing-plan">
+                          <div class="pricing-header">
+                              <h3>Frontend Developer // Web Developer</h3>
+                          </div>
+                          <div class="pricing-price">
+                              <span class="currency">₹</span>
+                              <span class="price">5000</span>
+                              <span class="period">/monthly</span>
+                          </div>
+                          <div class="pricing-body">
+                              <ul>
+                                  <li><i class="fa fa-check"></i>HTML</li>
+                                  <li><i class="fa fa-check"></i>CSS</li>
+                                  <li><i class="fa fa-check"></i>Javascript</li>
+                                  <li><i class="fa fa-check"></i>Java</li>
+                                  <li><i class="fa fa-check"></i>Angular</li>
+                              </ul>
+                          </div>
+                          <div class="pricing-footer">
+                              <a href="#" class="btn-2">Get started</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="pricing-item">
+                    <div class="pricing-plan">
+                        <div class="pricing-header">
+                            <h3>Backened Developer</h3>
+                            <h2 class="best-value">Best value</h2>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">₹</span>
+                            <span class="price">3000</span>
+                            <span class="period">/monthly</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fa fa-check"></i>C/C++</li>
+                                <li><i class="fa fa-check"></i>Java</li>
+                                <li><i class="fa fa-check"></i>Python</li>
+                                <li><i class="fa fa-check"></i>PHP</li>
+                                <li><i class="fa fa-check"></i>Node.js</li>
+                                <li><i class="fa fa-check"></i>Mongo db</li>
+                                <li><i class="fa fa-check"></i>React</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn-1">Get started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-item">
+                    <div class="pricing-plan">
+                        <div class="pricing-header">
+                            <h3>Full Stack Developer</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">₹</span>
+                            <span class="price">7000</span>
+                            <span class="period">/monthly</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fa fa-check"></i>HTML</li>
+                                <li><i class="fa fa-check"></i>CSS</li>
+                                <li><i class="fa fa-check"></i>Javascript</li>
+                                <li><i class="fa fa-check"></i>Java</li>
+                                <li><i class="fa fa-check"></i>Angular</li>
+                                <li><i class="fa fa-check"></i>C/C++</li>
+                                <li><i class="fa fa-check"></i>Java</li>
+                                <li><i class="fa fa-check"></i>Python</li>
+                                <li><i class="fa fa-check"></i>PHP</li>
+                                <li><i class="fa fa-check"></i>Node.js</li>
+                                <li><i class="fa fa-check"></i>Mongo db</li>
+                                <li><i class="fa fa-check"></i>React</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn-2">Get started</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+<div class="page6">
+   <div class="pCard_card" style="" id="profile">
+
+        <div class="pCard_up">
+           <div class="pCard_text">
+              <h2>Saurabh Kumar(Mr.Java)</h2>
+              <p>Web Developer || Full Stack Developer</p>
+              <div class="location">
+               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <circle cx="12" cy="11" r="3" />
+                  <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <span>Indirapuram,Ghaziabad</span>
+              </div>
+           </div>
+           <div class="pCard_add"><i class="fa fa-plus"></i></div>
+        </div>
+
+        <div class="pCard_down">
+           <div>
+              <p>Projects</p>
+              <p>126</p>
+           </div>
+           <div>
+              <p>Views</p>
+              <p>21,579</p>
+           </div>
+           <div>
+              <p>Likes</p>
+              <p>1,976</p>
+           </div>
+        </div>
+
+        <div class="pCard_back">
+           <p>See My Latest Work Here</p>
+           <a href="#"><i class="fab fa-facebook-f" style="height:70px;width:70px;"></i></a>
+           <a href="https://www.linkedin.com/in/saurabh-kumar-mr-java-885524224/"><i class="fab fa-linkedin-in" style="height:70px;width:70px;"></i></a>
+           <a href="https://www.youtube.com/channel/UCYD6FPfVjJ8RmJfcyOAet9g"><i class="fab fa-youtube" style="height:70px;width:70px;"></i></a> <br>
+           <a href="https://accounts.snapchat.com/accounts/welcome"><i class="fab fa-snapchat" style="height:70px;width:70px;"></i></a>
+           <a href="#https://t.me/Mr_java1234"><i class="fab fa-telegram" style="height:70px;width:70px;"></i></a>
+           <a href="https://www.instagram.com/developer_mr.java/"><i class="fab fa-instagram" style="height:70px;width:70px;"></i></a>
+           <div class="btn">
+               <button class="followMe" style="--bg: #ed145b;">Follow Me</button>
+               <button class="message" style="--bg: #0077b5;">Message</button>
+               <button class="portfolio" style="--bg: #334750">View Projects</button>
+           </div>
+        </div>
+        
+   </div>
+</div>
+
+<div class="container7">
+    
+    <div class="contents-wraper3">
+        
+        <section class="header"><h1>Testimonial</h1></section>
+
+        <section class="testRow">
+            
+            <div class="testItem active">
+                <img src="images/pri.jpg">
+                <h3>Priyanshu Singh</h3>
+                <h4>Delhi, India</h4>
+                <p>According to my opinion, I found Mr. Java's coding skills impressive. His approach to coding is correct, and he excels as both a full-stack developer and a web developer. I would like to learn more about his coding style and knowledge.</p>
+            </div>
+
+            <div class="testItem">
+                <img src="images/sahil.jpg">
+                <h3>Sahil Negi</h3>
+                <h4>Delhi, India</h4>
+                <p>According to my opinion, I found Mr. Java's coding skills impressive. His approach to coding is correct, and he excels as both a full-stack developer and a web developer. I would like to learn more about his coding style and knowledge.</p>
+            </div>
+
+            <div class="testItem">
+                <img src="images/Ritik.jpg">
+                <h3>Ritik Sadh</h3>
+                <h4>Delhi, India</h4>
+                <p>According to my opinion, I found Mr. Java's coding skills impressive. His approach to coding is correct, and he excels as both a full-stack developer and a web developer. I would like to learn more about his coding style and knowledge.</p>
+            </div>
+
+            <div class="testItem">
+                <img src="images/ratish.jpg">
+                <h3>Ratish Raj</h3>
+                <h4>Delhi, India</h4>
+                <p>According to my opinion, I found Mr. Java's coding skills impressive. His approach to coding is correct, and he excels as both a full-stack developer and a web developer. I would like to learn more about his coding style and knowledge.</p>
+            </div>
+
+            <div class="testItem">
+                <img src="images/shubham.jpg">
+                <h3>Shubham Bhardwaj</h3>
+                <h4>Delhi ,India</h4>
+                <p>According to my opinion, I found Mr. Java's coding skills impressive. His approach to coding is correct, and he excels as both a full-stack developer and a web developer. I would like to learn more about his coding style and knowledge.</p>
+            </div>
+
+        </section>
+
+        <section class="indicators">
+            <div class="dot active" attr='0' onclick="switchTest(this)"></div>
+            <div class="dot" attr='1' onclick="switchTest(this)"></div>
+            <div class="dot" attr='2' onclick="switchTest(this)"></div>
+            <div class="dot" attr='3' onclick="switchTest(this)"></div>
+            <div class="dot" attr='4' onclick="switchTest(this)"></div>
+        </section>
+
+    </div>
+</div>
+           <section id="section-wrapper"style="background-color: #efefef;">
+        <div class="box-wrapper">
+            <div class="info-wrap">
+                <h2 class="info-title">Contact Information</h2>
+                <h3 class="info-sub-title">Fill up the form and our Team will get back to you within 24 hours</h3>
+                <ul class="info-details">
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Phone:</span> <a href="tel:+ 1235 2355 98">+91 84481 31040</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-paper-plane"></i>
+                        <span>Email:</span> <a href="mailto:info@yoursite.com">saurabhkumar020703@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-globe"></i>
+                        <span>Website:</span> <a href="#">www.mr_java.com</a>
+                    </li>
+                </ul>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/saurabh51018267"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/saurabh-kumar-mr-java-885524224/"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div class="form-wrap">
+                <form action="https://formsubmit.co/saurabhkumar020703@gmail.com" method="POST">
+                    <h2 class="form-title">Send us a message</h2>
+                    <div class="form-fields">
+                        <div class="form-group">
+                            <input type="text" class="fname" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="lname" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="email" placeholder="Mail">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="" placeholder="Write your message"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Send Message" class="submit-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+      <!--===== Pricing Section End =====-->
+      
+       <!--===== Footer Section Start =====-->
+
+       <footer style="">
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <i class="fab fa-slack"></i>
+          <span class="logo_name">Mr.Java(Web Developer)
+          </span>
+        </div>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/saurabh51018267"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/itz_legend_saurabh/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/saurabh-kumar-mr-java-885524224/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/channel/UCYD6FPfVjJ8RmJfcyOAet9g"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Company</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Get started</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Services</li>
+          <li><a href="#">App design</a></li>
+          <li><a href="#">Web design</a></li>
+          <li><a href="#">Android Development</a></li>
+          <li><a href="#">Game Dvelopment</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Account</li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">My account</a></li>
+          <li><a href="#">Prefrences</a></li>
+          <li><a href="#">Purchase</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Courses</li>
+          <li><a href="#">HTML & CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">C/C++</a></li>
+          <li><a href="#">Java and Python</a></li>
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Subscribe</li>
+          <li><input type="text" placeholder="Enter your email"></li>
+          <li><input type="button" value="Subscribe"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright &#169; 2023 <a href="#">Mr.Java</a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+      <footer class="footer" style="background-color: var(--main-color); margin-top: 40px; height:98.5px;" >
+           <div class="container">
+               <div class="row justify-content-center">
+                   <p class="copyright-text" style="font-size:20px; margin-top:25px;">&copy; 2023 by Saurabh Kumar(Mr.Java)</p>
+               </div>
+           </div>
+       </footer>
+       <!--===== Footer Section End =====-->
+       <!--===== Lightbox Start =====-->
+       <div class="lightbox">
+          <div class="lightbox-content">
+              <div class="lightbox-close">&times;</div>
+              <img src="images/portfolio/portfolio-2.jpg" onclick="nextItem()" class="lightbox-img" alt="">
+              <div class="lightbox-caption"69>
+                  <div class="caption-text"></div>
+                  <div class="caption-counter"></div>
+              </div>
+          </div>
+          <div class="lightbox-controls">
+              <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+              <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+          </div>
+      </div>
+      <!--===== Lightbox End =====-->
+      <!--===== Main JS =====-->
+    <script src="main.js"></script>
+    <script src="chatbox.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+       const textarea = document.querySelector('.chatbox-message-input')
+const chatboxForm = document.querySelector('.chatbox-message-form')
+
+textarea.addEventListener('input', function () {
+  let line = textarea.value.split('\n').length
+
+  if(textarea.rows < 6 || line < 6) {
+    textarea.rows = line
+  }
+
+  if(textarea.rows > 1) {
+    chatboxForm.style.alignItems = 'flex-end'
+  } else {
+    chatboxForm.style.alignItems = 'center'
+  }
+})
+
+// TOGGLE CHATBOX
+const chatboxToggle = document.querySelector('.chatbox-toggle')
+const chatboxMessage = document.querySelector('.chatbox-message-wrapper')
+
+chatboxToggle.addEventListener('click', function () {
+  chatboxMessage.classList.toggle('show')
+})
+// DROPDOWN TOGGLE
+const dropdownToggle = document.querySelector('.chatbox-message-dropdown-toggle')
+const dropdownMenu = document.querySelector('.chatbox-message-dropdown-menu')
+
+dropdownToggle.addEventListener('click', function () {
+  dropdownMenu.classList.toggle('show')
+})
+
+document.addEventListener('click', function (e) {
+  if(!e.target.matches('.chatbox-message-dropdown, .chatbox-message-dropdown *')) {
+    dropdownMenu.classList.remove('show')
+  }
+})
+
+// CHATBOX MESSAGE
+const chatboxMessageWrapper = document.querySelector('.chatbox-message-content')
+const chatboxNoMessage = document.querySelector('.chatbox-message-no-message')
+
+chatboxForm.addEventListener('submit', function (e) {
+  e.preventDefault()
+
+  if(isValid(textarea.value)) {
+    writeMessage()
+    setTimeout(autoReply, 1000)
+  }
+})
+
+
+
+function addZero(num) {
+  return num < 10 ? '0'+num : num
+}
+
+function writeMessage() {
+  const today = new Date()
+  let message = `
+    <div class="chatbox-message-item sent">
+      <span class="chatbox-message-item-text">
+        ${textarea.value.trim().replace(/\n/g, '<br>\n')}
+      </span>
+      <span class="chatbox-message-item-time">${addZero(today.getHours())}:${addZero(today.getMinutes())}</span>
+    </div>
+  `
+  chatboxMessageWrapper.insertAdjacentHTML('beforeend', message)
+  chatboxForm.style.alignItems = 'center'
+  textarea.rows = 1
+  textarea.focus()
+  textarea.value = ''
+  chatboxNoMessage.style.display = 'none'
+  scrollBottom()
+}
+
+function autoReply() {
+  const today = new Date()
+  let message = `
+    <div class="chatbox-message-item received">
+      <span class="chatbox-message-item-text">
+        Hii,How may I assist you?
+      </span>
+      <span class="chatbox-message-item-time">${addZero(today.getHours())}:${addZero(today.getMinutes())}</span>
+    </div>
+  `
+  
+  chatboxMessageWrapper.insertAdjacentHTML('beforeend', message)
+  scrollBottom()
+}
+
+function scrollBottom() {
+  chatboxMessageWrapper.scrollTo(0, chatboxMessageWrapper.scrollHeight)
+}
+
+function isValid(value) {
+  let text = value.replace(/\n/g, '')
+  text = text.replace(/\s/g, '')
+
+  return text.length > 0
+}
+</script>
+
+<script>
+    "use strict";
+
+$(document).ready(function() {
+  const $buttons = $(".demo__buttons");
+  const $toggle = $(".demo__open-btn");
+  let delay = 200;
+  let steps = [];
+  let open = false;
+  
+  let curStep = 0;
+
+  for (let i = 0; i <= 3; i++) {
+    steps[i] = "demo__step-" + i;
+  }
+
+  function setStep(index) {    
+    $buttons.removeClass("step-1 step-0 step-3 step-2").addClass("step-" + curStep);   
+  }
+  
+  let lastTimeout;
+
+  function animate() {
+    if (curStep >= 4) {
+      curStep = 0;
+      return;
+    }
+
+    open = true;
+    setStep(curStep);    
+    curStep++;
+    lastTimeout = setTimeout(animate, delay);
+  }
+
+  $toggle.on("click", function() {
+    if (!open) animate();
+    else {
+      $buttons.removeClass("step-1 step-0 step-3 step-2");
+      clearTimeout(lastTimeout);
+      open = false;
+      curStep = 0;
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+    
+    // Access the testimonials
+    let testSlide = document.querySelectorAll('.testItem');
+    // Access the indicators
+    let dots = document.querySelectorAll('.dot');
+
+    var counter = 0;
+
+    // Add click event to the indicators
+    function switchTest(currentTest){
+        currentTest.classList.add('active');
+        var testId = currentTest.getAttribute('attr');
+        if(testId > counter){
+            testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+            counter = testId;
+            testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+        }
+        else if(testId == counter){return;}
+        else{
+            testSlide[counter].style.animation = 'prev1 0.5s ease-in forwards';
+            counter = testId;
+            testSlide[counter].style.animation = 'prev2 0.5s ease-in forwards';
+        }
+        indicators();
+    }
+
+    // Add and remove active class from the indicators
+    function indicators(){
+        for(i = 0; i < dots.length; i++){
+            dots[i].className = dots[i].className.replace(' active', '');
+        }
+        dots[counter].className += ' active';
+    }
+
+    // Code for auto sliding
+    function slideNext(){
+        testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+        if(counter >= testSlide.length - 1){
+            counter = 0;
+        }
+        else{
+            counter++;
+        }
+        testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+        indicators();
+    }
+    function autoSliding(){
+        deleteInterval = setInterval(timer, 2000);
+        function timer(){
+            slideNext();
+            indicators();
+        }
+    }
+    autoSliding();
+
+    // Stop auto sliding when mouse is over the indicators
+    const container = document.querySelector('.indicators');
+    container.addEventListener('mouseover', pause);
+    function pause(){
+        clearInterval(deleteInterval);
+    }
+
+    // Resume sliding when mouse is out of the indicators
+    container.addEventListener('mouseout', autoSliding);
+
+</script>
+
+<script src="app.js"></script>
+</body>
+</html>
